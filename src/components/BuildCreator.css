@@ -1,0 +1,79 @@
+.build-creator {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 800px; /* Genişliği artırabilirsiniz */
+    background-color: #f9f9f9;
+    border-radius: 6px;
+  }
+  
+  .build-creator h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .build-creator label {
+    display: block;
+    margin-top: 0.5rem;
+  }
+  
+  .build-creator input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  /* Yeni container: build-form-container */
+  .build-form-container {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  /* Sol taraf: build-details */
+  .build-details {
+    flex: 1;
+  }
+  
+  /* Title section */
+  .title-section {
+    margin-bottom: 1rem;
+  }
+  
+  /* Yan yana: build-options */
+  .build-options {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .build-purpose,
+  .viable-tiers {
+    flex: 1;
+  }
+  
+  /* Sağ taraf: item-selection */
+  .item-selection {
+    flex: 1;
+  }
+  
+  /* Slots düzeni */
+  .slots {
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .build-creator button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: #3B1C32;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .build-creator button:hover {
+    background-color: #3B1C32;
+  }
+  

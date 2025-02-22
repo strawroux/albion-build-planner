@@ -1,0 +1,31 @@
+.slot-selector {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    position: relative;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .slot-selector h4 {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .slot-selector p {
+    margin: 0;
+  }
+  
+  .slot-selector button {
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    border: none;
+    cursor: pointer;
+    background-color: #3B1C32;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .slot-selector button:hover {
+    background-color: #3B1C32;
+  }
+  

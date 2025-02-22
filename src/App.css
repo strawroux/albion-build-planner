@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+  background-color: #eef;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6A1E55;
+  margin-right: 10px;
 }
 
 .App-logo {
@@ -21,11 +29,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(54, 54, 54);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #6A1E55;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +43,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Genel stil ayarları */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('https://assets.albiononline.com/uploads/media/default/media/b87189a9f2039c9fe7c8ffce7d54121267e1f1d5.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Arka plan sabit kalsın */
+  color: #333;
+}
+
+
+/* Navbar Stili */
+.navbar {
+  background: linear-gradient(90deg, #6A1E55, #3B1C32);
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #A64D79;
+}
+
+/* Main content alanı */
+main {
+  padding: 2rem;
 }

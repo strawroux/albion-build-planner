@@ -1,0 +1,105 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #fff;
+    color: #000; /* Metin rengi siyah */
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  .modal-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content label {
+    display: block;
+    margin-bottom: 3px; /* Azaltıldı */
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .modal-content input,
+  .modal-content textarea {
+    width: 100%;
+    padding: 8px; /* Azaltıldı */
+    margin-bottom: 10px; /* Azaltıldı */
+    border: 1px solid #444;
+    border-radius: 4px;
+    background: #f0f0f0;
+    color: #000;
+  }
+  
+  .build-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Azaltıldı */
+    margin-bottom: 10px; /* Azaltıldı */
+  }
+  
+  .build-purpose,
+  .viable-tiers {
+    flex: 1;
+  }
+  
+  .build-purpose p,
+  .viable-tiers p {
+    margin: 0 0 5px; /* Azaltıldı */
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .build-purpose label,
+  .viable-tiers label {
+    display: block;
+    margin-bottom: 2px; /* Azaltıldı */
+    color: #000;
+  }
+  
+  .slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .save-button-modal {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-button-modal {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

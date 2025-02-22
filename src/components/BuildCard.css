@@ -1,0 +1,88 @@
+.build-card {
+    margin: 2px 0;
+    padding: 10px;
+    max-width: none;
+    width: auto;
+    background-color: transparent;
+    border-radius: 6px;
+    display: flex;
+    align-items: center; /* Üstten hizala */
+    gap: 15px; /* Başlık ile ekipmanlar arası boşluk */
+    overflow-x: auto;
+  }
+
+  .build-card::-webkit-scrollbar {
+    height: 6px;
+  }
+  .build-card::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 3px;
+  }
+  
+  .build-card h2 {
+    margin: 0; /* Tüm margin'leri sıfırla */
+    min-width: 150px; /* Sabit genişlik ekle */
+    text-align: left; /* Metni sola yasla */
+    font-size: 1.1rem;
+    padding: 5px;
+  }
+
+  .build-title {
+    min-width: 150px;
+    text-align: left;
+  }
+  
+  .equipment {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow: visible;
+    padding: 5px 0;
+    min-width: fit-content;
+    align-items: center;
+  }
+
+  .equipment-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 64px); /* 2 silah + 6 diğer slot */
+    gap: 10px;
+  }
+  
+  .equipment-slot {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
+  
+  /* Boş slot stilleri aynı kalıyor */
+  .empty-slot {
+    width: 64px;
+    height: 64px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px dashed #4a4a4a;
+  }
+
+  .equipment-slot.empty-space {
+    border: none;
+    background: transparent;
+  }
+  
+  /* Responsive için ekstra */
+  @media (max-width: 768px) {
+    .build-card {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    
+    .build-card h2 {
+      min-width: 100%;
+      border-bottom: 1px solid #444;
+      padding-bottom: 5px;
+    }
+  }

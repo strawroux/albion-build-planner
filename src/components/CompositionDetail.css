@@ -1,0 +1,57 @@
+.composition-detail {
+  min-height: 100vh;
+  min-width: 700px;
+  padding: 20px;
+  color: #ececec;
+  position: relative;
+}
+
+.composition-header {
+  position: relative;
+  /* İsteğe bağlı: header yüksekliği ayarlanabilir */
+  padding-bottom: 40px; /* Buton için alan bırakıyoruz */
+}
+
+.composition-header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.edit-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #3B1C32;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #6A1E55;
+}
+
+.composition-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.composition-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.composition-item {
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
