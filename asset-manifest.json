@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/albion-build-planner/static/css/main.043ec876.css",
+    "main.js": "/albion-build-planner/static/js/main.93f96268.js",
+    "static/js/453.d60be76a.chunk.js": "/albion-build-planner/static/js/453.d60be76a.chunk.js",
+    "index.html": "/albion-build-planner/index.html",
+    "main.043ec876.css.map": "/albion-build-planner/static/css/main.043ec876.css.map",
+    "main.93f96268.js.map": "/albion-build-planner/static/js/main.93f96268.js.map",
+    "453.d60be76a.chunk.js.map": "/albion-build-planner/static/js/453.d60be76a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.043ec876.css",
+    "static/js/main.93f96268.js"
+  ]
+}
