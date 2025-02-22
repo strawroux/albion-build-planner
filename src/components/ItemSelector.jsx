@@ -115,7 +115,6 @@ function ItemSelector({ slotFilter, onClose, onItemSelect }) {
             </label>
           ))}
         </div>
-
       </div>
       <div className="item-list">
         {filteredItems.map((item) => (
