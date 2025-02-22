@@ -108,19 +108,7 @@ function BuildCreator({ onSaveBuild }) {
                   Escape/Gathering
                 </label>
               </div>
-              <div className="viable-tiers">
-                <p>Viable Tiers:</p>
-                {[4, 5, 6, 7, 8].map((tier) => (
-                  <label key={tier}>
-                    <input
-                      type="checkbox"
-                      checked={viableTiers.includes(tier)}
-                      onChange={() => handleTierChange(tier)}
-                    />
-                    T{tier}
-                  </label>
-                ))}
-              </div>
+              
             </div>
           </div>
           <div className="item-selection">
