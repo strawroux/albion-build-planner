@@ -114,32 +114,7 @@ function ItemSelector({ slotFilter, onClose, onItemSelect }) {
               T{tier}
             </label>
           ))}
-        </div>
-        <div>
-          <p>Slot Seçimi:</p>
-          {[
-            "MainHand",
-            "OffHand",
-            "TwoHanded",
-            "Head",
-            "Armor",
-            "Shoes",
-            "Cape",
-            "Food",
-            "Potion"
-          ].map((slot) => (
-            <label key={slot}>
-              <input
-                type="checkbox"
-                checked={selectedSlots.includes(slot)}
-                onChange={() => handleSlotChange(slot)}
-                disabled={Boolean(slotFilter)}
-              />
-              {slot}
-            </label>
-          ))}
-        </div>
-      </div>
+
       <div className="item-list">
         {filteredItems.map((item) => (
           <div
