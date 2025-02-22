@@ -114,7 +114,9 @@ function ItemSelector({ slotFilter, onClose, onItemSelect }) {
               T{tier}
             </label>
           ))}
+        </div>
 
+      </div>
       <div className="item-list">
         {filteredItems.map((item) => (
           <div
